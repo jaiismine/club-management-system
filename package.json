@@ -1,0 +1,16 @@
+{
+  "name": "club-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Club Management System - MERN monorepo root",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

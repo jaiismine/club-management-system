@@ -1,0 +1,73 @@
+.layout-header {
+  background: var(--red);
+  color: var(--white);
+  padding: 0.875rem 0;
+}
+
+.layout-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.layout-brand {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.layout-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.layout-user-info {
+  font-size: 0.875rem;
+}
+
+.layout-role {
+  opacity: 0.85;
+}
+
+.layout-header .btn-outline {
+  border-color: var(--white);
+  color: var(--white);
+  background: transparent;
+}
+
+.layout-header .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.layout-main {
+  padding: 2rem 0 3rem;
+}
+
+.landing-header {
+  background: var(--red);
+  color: var(--white);
+  padding: 1rem 0;
+}
+
+.landing-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-brand {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.landing-header .btn-outline {
+  border-color: var(--white);
+  color: var(--white);
+  background: transparent;
+}
+
+.landing-header .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
